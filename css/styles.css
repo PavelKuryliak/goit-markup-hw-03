@@ -7,6 +7,7 @@
     --focus-btn-color: #404bbf;
     --title-text-color: #2e2f42;
     --footer-text-color: #E7E9FC;
+
 }
 
 h1,
@@ -182,6 +183,7 @@ padding-bottom: 24;
     background: var(--botton-text-color);
     display: block;
     margin: 0 auto;
+    border-color: transparent;
 }
 
 .hero-button:hover,
@@ -276,7 +278,11 @@ padding-bottom: 24;
     gap: 24px;
 }
 
-.team-list-item {}
+.team-list-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-list-img {}
 
@@ -344,21 +350,11 @@ padding-bottom: 24;
     gap: 24px;
 }
 
-/*  font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: var(--bgc-white-color);
-    width: 169px;
-    height: 56px;
-    background: var(--botton-text-color);
-    display: block;
-    margin: 0 auto; */
+.scrolls-border {
+    border: 1px solid var(--footer-text-color);
+}
 
+/* outline: 2px solid blue; */
 
 .scrolls-btr {
     font-family: inherit;
@@ -368,6 +364,13 @@ padding-bottom: 24;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--botton-text-color);
+    padding: 12px 24px;
+}
+
+.scrolls-btr:hover,
+.scrolls-btr:focus {
+    background-color: var(--focus-btn-color);
+    color: var(--bgc-white-color);
 }
 
 .scrolls-list-btr-item {}
@@ -376,7 +379,7 @@ padding-bottom: 24;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px
+    gap: 24px;
 }
 
 .scrolls-list-img-item {}
@@ -387,8 +390,9 @@ padding-bottom: 24;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    margin-top: 32px;
     margin-bottom: 8px;
+    padding-left: 16px;
+    padding-top: 32px;
 }
 
 .scrolls-list-img-text {
@@ -396,5 +400,6 @@ padding-bottom: 24;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--paragraf-text-color);
-    margin-bottom: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
