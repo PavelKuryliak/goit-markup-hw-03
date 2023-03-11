@@ -350,6 +350,7 @@ padding-bottom: 24;
     gap: 24px;
 }
 
+/* border: 1px solid #E7E9FC; */
 .scrolls-border {
     border-right: 1px solid var(--footer-text-color);
     border-bottom: 1px solid var(--footer-text-color);
