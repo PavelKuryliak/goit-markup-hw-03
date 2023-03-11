@@ -1,12 +1,3 @@
-/* 
---paragraf-text-color: #434455;
---botton-text-color: #4d5ae5;
---bgc-white-color: #ffffff;
---studio-white-color: #f4f4fd;
---focus-btn-color: #404bbf;
---title-text-color: #2e2f42;
---footer-text-color: #E7E9FC  */
-
 :root {
 
     --paragraf-text-color: #434455;
@@ -21,7 +12,6 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--paragraf-text-color);
-
 }
 
 .link {
@@ -32,7 +22,8 @@ body {
     list-style: none;
 }
 
-/*-----------header-----------*/
+/* --------------------- header --------------------- */
+
 .header-logo,
 .header-logo-stail {
     font-family: "Raleway", sans-serif;
@@ -47,7 +38,6 @@ body {
 
 .header-logo-stail {
     color: var(--title-text-color);
-
 }
 
 .link:hover {
@@ -78,7 +68,8 @@ body {
     color: var(--paragraf-text-color);
 }
 
-/*-----------section hero -----------*/
+/* --------------------- section hero --------------------- */
+
 .hero {
     background: var(--title-text-color);
 }
@@ -112,7 +103,7 @@ body {
     color: var(--bgc-white-color);
 }
 
-/* -----------section feature----------- */
+/* --------------------- section feature --------------------- */
 .feature {}
 
 .feature-title {
@@ -124,7 +115,6 @@ body {
 .feature-list-item {}
 
 .feature-title {
-
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -139,7 +129,7 @@ body {
     color: var(--paragraf-text-color);
 }
 
-/* -----------section work -----------*/
+/* --------------------- section work --------------------- */
 .work {}
 
 .work-title {
@@ -157,7 +147,7 @@ body {
 
 .work-list-img {}
 
-/*-----------team----------- */
+/* --------------------- team --------------------- */
 .team {
     background: var(--studio-white-color);
 }
@@ -192,7 +182,7 @@ body {
     color: var(--paragraf-text-color);
 }
 
-/*-----------footer----------- */
+/* --------------------- footer --------------------- */
 .footer {
     background: var(--title-text-color);
 }
@@ -218,7 +208,7 @@ body {
     color: var(--footer-text-color);
 }
 
-/* ---------------section scrolls---------------*/
+/* --------------------- section scrolls --------------------- */
 .scrolls {}
 
 .scrolls-title {}
